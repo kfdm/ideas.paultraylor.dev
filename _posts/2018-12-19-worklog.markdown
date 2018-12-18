@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Worklog"
+resources:
+- https://github.com/kfdm/alfred-worklog
+- https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
+---
+
+Using Jekyll as a worklog
