@@ -4,6 +4,10 @@ title: Todo List using Markdown Database
 tags:
 - todo
 - markdown
+references:
+- http://www.karelia.com/products/the-hit-list/mac.html
+- http://www.karelia.com/products/the-hit-list/iphone.html
+- https://taskwarrior.org/
 ---
 
 Frontmatter could be used for basic Metadata
