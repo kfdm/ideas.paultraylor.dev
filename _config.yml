@@ -40,3 +40,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+collections:
+  site_tags:
+    output: true
+    permalink: /tag/:name/
+    layout: tag
