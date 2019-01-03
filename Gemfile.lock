@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/kfdm/jekyll-tag-helper.git
+  revision: 30de03eba06c1576fb97a997fad0fe1395cca009
+  specs:
+    jekyll-tag-helper (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -243,6 +249,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-tag-helper!
 
 BUNDLED WITH
    1.17.2
