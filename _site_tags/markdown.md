@@ -1,4 +1,0 @@
----
-tag: markdown
-layout: tag
----

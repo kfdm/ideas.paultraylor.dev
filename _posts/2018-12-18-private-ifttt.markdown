@@ -5,6 +5,9 @@ references:
 - https://github.com/push-things/django-th
 - https://ifttt.com
 - https://nodered.org/
+tags:
+- ifttt
+- mqtt
 ---
 
 * Broker

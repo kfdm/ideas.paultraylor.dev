@@ -3,6 +3,7 @@ layout: post
 title: Caldav to Github/Jira Proxy
 tags:
 - todo
+- caldav
 ---
 
 ![Sequence](/images/caldav-proxy/sequence.svg)

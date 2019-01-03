@@ -5,6 +5,10 @@ resources:
 - https://agenda.com/
 - https://github.com/kfdm/alfred-worklog
 - https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
+tags:
+- todo
+- markdown
+- jekyll
 ---
 
 Using Jekyll as a worklog

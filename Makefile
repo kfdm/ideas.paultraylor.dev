@@ -7,6 +7,10 @@ server: vendor/bundle
 vendor/bundle:
 	bundle install --path vendor/bundle
 
+.PHONY:	tags
+tags: vendor/bundle
+	bundle exec jekyll tags
+
 .PHONY:	docker
 docker:
 	@echo Running Jekyll
