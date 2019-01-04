@@ -4,6 +4,7 @@ title: Todo List using Markdown Database
 tags:
 - todo
 - markdown
+status: brainstorm
 references:
 - http://www.karelia.com/products/the-hit-list/mac.html
 - http://www.karelia.com/products/the-hit-list/iphone.html

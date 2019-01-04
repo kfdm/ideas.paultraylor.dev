@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pocket to Jekyll
+status: brainstorm
 tags:
 - jekyll
 - pocket

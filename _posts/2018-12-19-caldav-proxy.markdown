@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Caldav to Github/Jira Proxy
+status: prototype
 tags:
 - todo
 - caldav

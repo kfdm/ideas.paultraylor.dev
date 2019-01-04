@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life Calendar"
+status: brainstorm
 ---
 
 * http://moriclock.com/

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jekyll Tools for VS Code"
+status: brainstorm
 tags:
 - vscode
 - typescript

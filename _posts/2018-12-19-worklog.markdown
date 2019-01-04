@@ -2,7 +2,7 @@
 layout: post
 title: "Worklog"
 repo: https://github.com/kfdm/alfred-worklog
-status: prototype
+status: alpha
 excerpt: Using Jekyll as a worklog
 tags:
 - todo

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Private IFTTT"
+status: brainstorm
 references:
 - https://github.com/push-things/django-th
 - https://ifttt.com
