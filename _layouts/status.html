@@ -1,9 +1,10 @@
 ---
 layout: page
 ---
+{% assign posts = site.posts | where:"status",page.filter %}
+
 <table>
-    {% for post in site.posts %}
-    {% if post.status == page.filter %}
+    {% for post in posts %}
     <tr>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <td>{{ post.date | date: date_format }}</td>
@@ -15,6 +16,5 @@ layout: page
         <td>{% include status.html %}</td>
         <td>{% include tags.html tags=post.tags %}</td>
     </tr>
-    {% endif %}
     {% endfor %}
 </table>

@@ -3,9 +3,10 @@ title: Status
 path: /status/
 layout: page
 ---
+{% assign pages = site.pages | where:"layout","status" | sort:"order" %}
 
-{% for page in site.pages %}
-{% if page.layout == "status" %}
+<ul>
+    {% for page in pages %}
     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-{% endif %}
-{% endfor %}
+    {% endfor %}
+</ul>

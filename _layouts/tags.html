@@ -1,8 +1,10 @@
 ---
 layout: page
 ---
+{% assign posts = site.tags[page.tag] %}
+
 <table>
-    {% for post in site.tags[page.tag] %}
+    {% for post in posts %}
     <tr>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <td>{{ post.date | date: date_format }}</td>
