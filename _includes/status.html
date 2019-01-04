@@ -1,3 +1,5 @@
 {%- assign status = post.status | default:"unknown" -%}
 {%- assign color = site.data.status[status] | default:"lightgrey" -%}
-<img src="https://img.shields.io/badge/status-{{status}}-{{color}}.svg" alt="{{status}}">
+<a href="/status/{{status}}">
+    <img src="https://img.shields.io/badge/status-{{status}}-{{color}}.svg" alt="{{status}}">
+</a>

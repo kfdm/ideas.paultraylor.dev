@@ -1,0 +1,11 @@
+---
+title: Status
+path: /status/
+layout: page
+---
+
+{% for page in site.pages %}
+{% if page.layout == "status" %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endif %}
+{% endfor %}

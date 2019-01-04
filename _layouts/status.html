@@ -2,17 +2,19 @@
 layout: page
 ---
 <table>
-    {% for post in site.tags[page.tag] %}
+    {% for post in site.posts %}
+    {% if post.status == page.filter %}
     <tr>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <td>{{ post.date | date: date_format }}</td>
         <td>
             <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
+            {{ post.title | escape }}
             </a>
         </td>
         <td>{% include status.html %}</td>
         <td>{% include tags.html tags=post.tags %}</td>
     </tr>
+    {% endif %}
     {% endfor %}
 </table>
