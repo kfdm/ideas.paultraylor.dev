@@ -1,0 +1,15 @@
+<table>
+    {% for post in include.posts %}
+    <tr>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <td>{{ post.date | date: date_format }}</td>
+        <td>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+            </a>
+        </td>
+        <td>{% include status.html %}</td>
+        <td>{% include tags.html tags=post.tags %}</td>
+    </tr>
+    {% endfor %}
+</table>
