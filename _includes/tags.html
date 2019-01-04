@@ -1,0 +1,9 @@
+<ul>
+    {% for tag in include.tags %}
+     <li>
+        <a href="/tags/{{ tag | slugify | downcase }}/">
+                {{ tag | slugify | downcase }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
