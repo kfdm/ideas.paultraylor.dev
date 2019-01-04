@@ -1,14 +1,27 @@
 ---
 layout: post
 title: "Worklog"
-resources:
-- https://agenda.com/
-- https://github.com/kfdm/alfred-worklog
-- https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
+repo: https://github.com/kfdm/alfred-worklog
+status: prototype
+excerpt: Using Jekyll as a worklog
 tags:
 - todo
 - markdown
 - jekyll
 ---
 
-Using Jekyll as a worklog
+Jekyll is a fairly powerful platform for blogging, and I think a few scripts built around it could also be useful for maintaining a worklog
+
+## Inspiration
+
+### Agenda
+
+[Agenda](https://agenda.com/) seems to be very nicely done, but I want a bit more control over mapping to calendars
+
+### jrnl
+
+[jrnl](http://jrnl.sh/) is nice for the simplicitiy but I want a bit more structure than everything in a single file
+
+### vscode-journal
+
+[vscode-journal](https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal) is a neat way of organizing things
