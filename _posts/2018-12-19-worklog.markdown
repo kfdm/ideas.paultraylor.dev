@@ -25,3 +25,7 @@ Jekyll is a fairly powerful platform for blogging, and I think a few scripts bui
 ### vscode-journal
 
 [vscode-journal](https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal) is a neat way of organizing things
+
+### trilium
+
+[trilium](https://github.com/zadam/trilium) looks interesting, though instead of sqlite I think I want to use flat files. Metadata could be stored in frontmatter
