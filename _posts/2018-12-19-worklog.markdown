@@ -16,16 +16,25 @@ Jekyll is a fairly powerful platform for blogging, and I think a few scripts bui
 
 ### Agenda
 
-[Agenda](https://agenda.com/) seems to be very nicely done, but I want a bit more control over mapping to calendars
+[Agenda] seems to be very nicely done, but I want a bit more control over mapping to calendars
 
 ### jrnl
 
-[jrnl](http://jrnl.sh/) is nice for the simplicitiy but I want a bit more structure than everything in a single file
+[jrnl] is nice for the simplicitiy but I want a bit more structure than everything in a single file
 
 ### vscode-journal
 
-[vscode-journal](https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal) is a neat way of organizing things
+[vscode-journal] is a neat way of organizing things
 
 ### trilium
 
-[trilium](https://github.com/zadam/trilium) looks interesting, though instead of sqlite I think I want to use flat files. Metadata could be stored in frontmatter
+[trilium] looks interesting, though instead of sqlite I think I want to use flat files. Metadata could be stored in frontmatter
+
+
+[notable]
+
+[Agenda]: https://agenda.com/
+[jrnl]: http://jrnl.sh/
+[vscode-journal]: https://marketplace.visualstudio.com/items?itemName=pajoma.vscode-journal
+[trilium]: https://github.com/zadam/trilium
+[notable]: https://github.com/fabiospampinato/notable
