@@ -3,9 +3,32 @@ layout: post
 title: Caldav to Github/Jira Proxy
 status: prototype
 tags:
-- todo
-- caldav
+  - todo
+  - caldav
 ---
 
-![Sequence](/images/caldav-proxy/sequence.svg)
-[Edit](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG4gICAgcGFydGljaXBhbnQgQ2xpZW50XG4gICAgcGFydGljaXBhbnQgQ2FjaGVcbiAgICBwYXJ0aWNpcGFudCBTZXJ2ZXJcblxuICAgIE5vdGUgcmlnaHQgb2YgQ2xpZW50OiBCYXNpYyBGZXRjaFxuXG4gICAgQ2xpZW50LT4-U2VydmVyOiBQcm94eSBSZXF1ZXN0XG4gICAgQWN0aXZhdGUgQ2FjaGVcbiAgICBTZXJ2ZXItPj5DYWNoZTogVXBkYXRlIGNhY2hlIHdpdGggdmFsdWVzXG4gICAgQ2FjaGUtPj5DbGllbnQ6IFJldHVybiB1cGRhdGVkIGNhY2hlXG4gICAgRGVhY3RpdmF0ZSBDYWNoZVxuXG5cbk5vdGUgcmlnaHQgb2YgQ2xpZW50OiBCYXNpYyBQVVRcbkNsaWVudC0-PkNhY2hlOiBIVFRQIFBVVFxuQWN0aXZhdGUgQ2FjaGVcbkNhY2hlLT4-U2VydmVyOiBQb3N0IHRvIFNlcnZlclxuU2VydmVyLT4-Q2FjaGU6IFVwZGF0ZSBjYWNoZVxuQ2FjaGUtPj5DbGllbnQ6IFJldHVybiB0byBDbGllbnRcbkRlYWN0aXZhdGUgQ2FjaGVcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
+<div class="mermaid">
+sequenceDiagram
+    participant Client
+    participant Cache
+    participant Server
+
+    Note right of Client: Basic Fetch
+
+    Client->>Server: Proxy Request
+    Activate Cache
+    Server->>Cache: Update cache with values
+    Cache->>Client: Return updated cache
+    Deactivate Cache
+
+    Note right of Client: Basic PUT
+    Client->>Cache: HTTP PUT
+    Activate Cache
+    Cache->>Server: Post to Server
+    Server->>Cache: Update cache
+    Cache->>Client: Return to Client
+    Deactivate Cache
+</div>
+
+<script src="https://unpkg.com/mermaid@8.0.0/dist/mermaid.min.js">
+<script>mermaid.initialize({startOnLoad:true});</script>
