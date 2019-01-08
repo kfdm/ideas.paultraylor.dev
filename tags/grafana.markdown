@@ -1,9 +1,5 @@
 ---
-title: Grafana
 tag: grafana
 layout: tags
+permalink: /tags/grafana/
 ---
-
-Projects related to [Grafana]
-
-[Grafana]: https://grafana.com/
