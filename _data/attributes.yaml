@@ -1,0 +1,12 @@
+# Brainstorm for various possible attributes
+- name: status
+  type: string
+- name: title
+  type: string
+- name: layout
+  type: string
+  validator: layout
+- name: tags
+  type: list
+- name: date
+  type: datetime
