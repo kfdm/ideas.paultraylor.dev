@@ -8,7 +8,7 @@
             {{ post.title | escape }}
             </a>
         </td>
-        <td>{% include status.html %}</td>
+        <td>{% include status.html status=post.status %}</td>
         <td>{% include tags.html tags=post.tags %}</td>
     </tr>
     {% endfor %}
