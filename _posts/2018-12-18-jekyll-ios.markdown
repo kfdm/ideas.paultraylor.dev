@@ -10,6 +10,9 @@ tags:
 
 Basic app using Git backend and edit meta data
 
+- Share widget to allow sending links to start a blog post
+- Upload images to `/media/*` and insert `![]()` tag
+
 # Questions
 
 - How to handle choosing metadata from valid options
