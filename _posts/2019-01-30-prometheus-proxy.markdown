@@ -2,6 +2,9 @@
 layout: post
 title: Prometheus Proxy
 mermaid: true
+tags:
+  - golang
+  - prometheus
 ---
 
 ```mermaid
