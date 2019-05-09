@@ -20,9 +20,11 @@ alertmanager --> webhook
 
 ```yaml
 - hostname: customer.example.com
-  plugin: promql
-  add_labels:
-    service: customer
+  upstream: thanos.example.com
+  plugins:
+    - name: promql
+      add_labels:
+        service: customer
 ```
 
 # Prometheus -> Alertmanager
@@ -35,7 +37,9 @@ alertmanager --> webhook
 
 ```yaml
 - hostname: webhook.example.com
-  plugin: alert
-  add_label:
-    foo: bar
+  upstream: promgen.example.com
+  plugins:
+    - name: alert
+      add_label:
+        foo: bar
 ```
