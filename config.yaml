@@ -2,3 +2,15 @@ baseURL: https://ideas.paultraylor.net/
 languageCode: en-us
 title: Assorted Ideas
 theme: ananke
+
+params:
+  description: "Assorted ideas and brainstorming"
+  twitter: "https://twitter.com/kfdm"
+  github: "https://github.com/kfdm"
+  # recent_posts_number: 5
+
+menu:
+  main:
+    - name: tags
+      pre: <i class='fa fa-heart'></i>
+      url: /tags/
