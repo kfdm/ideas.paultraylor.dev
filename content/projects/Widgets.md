@@ -9,6 +9,7 @@ tags:
 ---
 
 {{% statusbadge alpha blue %}}
+{{% ghissues "kfdm/django-simplestats" %}}
 
 # Github
 
