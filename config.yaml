@@ -14,3 +14,6 @@ menu:
     - name: tags
       pre: <i class='fa fa-heart'></i>
       url: /tags/
+    - name: projects
+      pre: <i class='fa fa-heart'></i>
+      url: /projects/
