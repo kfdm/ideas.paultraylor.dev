@@ -8,6 +8,7 @@ tags:
   - icalendar
   - prometheus
   - grafana
+status: alpha
 ---
 
 {{% statusbadge alpha blue %}}

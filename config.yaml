@@ -8,12 +8,24 @@ params:
   twitter: "https://twitter.com/kfdm"
   github: "https://github.com/kfdm"
   # recent_posts_number: 5
+  show_reading_time: true
 
 menu:
   main:
+    - name: ideas
+      pre: <i class='fa fa-heart'></i>
+      url: /ideas
     - name: tags
       pre: <i class='fa fa-heart'></i>
       url: /tags/
     - name: projects
       pre: <i class='fa fa-heart'></i>
       url: /projects/
+    - name: notes
+      pre: <i class='fa fa-heart'></i>
+      url: /notes/
+
+taxonomies:
+  category: categories
+  tag: tags
+  status: status

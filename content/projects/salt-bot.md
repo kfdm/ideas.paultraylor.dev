@@ -6,6 +6,7 @@ tags:
   - slack
   - line
   - saltstack
+status: alpha
 ---
 
 {{% statusbadge alpha blue %}}

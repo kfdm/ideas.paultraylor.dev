@@ -6,6 +6,7 @@ tags:
   - ios
   - prometheus
   - grafana
+status: alpha
 ---
 
 {{% statusbadge alpha blue %}}
