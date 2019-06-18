@@ -43,6 +43,7 @@ ios-todo-->django-pomodoro
 
 prometheus-->quickstats-django
 grafana-->quickstats-django
+grafana-->django-pomodoro
 
 salt-master-->fluentd
 fluentd-->salt-bot
