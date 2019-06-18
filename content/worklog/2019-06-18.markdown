@@ -6,5 +6,6 @@ tags:
 ---
 
 - Stubs for a custom `worklog` theme based on an existing [hugo-bootstrap] theme
+- Deployed updated version of `tsundere` moving the old version of simplestats to a `legacy` route to support grafana until the migration
 
 [hugo-bootstrap]: https://github.com/Xzya/hugo-bootstrap
