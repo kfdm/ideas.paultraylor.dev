@@ -1,7 +1,7 @@
 ---
 date: 2018-12-18T00:00:00.000Z
 title: Pocket to Jekyll
-status: brainstorm
+status: retired
 tags:
   - jekyll
   - pocket
