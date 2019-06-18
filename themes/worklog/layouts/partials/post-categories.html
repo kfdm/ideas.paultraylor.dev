@@ -7,10 +7,14 @@
 </div>
 {{ end }}
 
+{{ if .Params.status }}
 <div class="blog-post-categories text-secondary">
 
-    {{ if eq .Params.status "retired" }}
     <strong>Status:</strong>
-    <span class="badge badge-pill badge-danger">Retired</span>
+    {{ if eq .Params.status "retired" }}
+    <span class="badge badge-danger">Retired</span>
+    {{else}}
+    <span class="badge badge-secondary">{{.Params.status}}</span>
     {{end}}
 </div>
+{{end}}
