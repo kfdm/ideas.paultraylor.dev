@@ -3,6 +3,7 @@ title: Mindmap
 date: '2019-06-13'
 mermaid: true
 summary: Various connected ideas
+toc: true
 tags:
   - caldav
   - django
@@ -18,11 +19,14 @@ graph LR
 ios-pomodoro((<center>Pomodoro<br>App</center>))
 ios-quickstats((<center>QuickStats<br>App</center>))
 ios-todo((<center>Markdown<br>Todo</center>))
+salt-master{salt-master}
+
 mqtt>MQTT]
 grafana>Grafana]
 prometheus>Prometheus]
 github>GitHub]
 jira>JIRA]
+fluentd>fluentd]
 
 quickstats-django[QuickStats API]
 
@@ -40,6 +44,10 @@ ios-todo-->django-pomodoro
 prometheus-->quickstats-django
 grafana-->quickstats-django
 
+salt-master-->fluentd
+fluentd-->salt-bot
+salt-bot-->slack
+salt-bot-->line
 
 
 click ios-pomodoro "https://github.com/kfdm/ios-pomodoro"
@@ -52,7 +60,19 @@ click jira "https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
 click prometheus "https://prometheus.io"
 click grafana "https://grafana.net"
 
-class ios-pomodoro personal-project
-class ios-quickstats personal-project
+classDef pomodoro-project fill:#f9f,stroke:#333,stroke-width:4px;
+class ios-pomodoro,django-pomodoro pomodoro-project
+
+classDef stats-project fill:#ff9,stroke:#333,stroke-width:4px;
+class ios-quickstats,quickstats-django stats-project
+
+classDef todo-project fill:#9ff,stroke:#333,stroke-width:4px;
+class ios-todo todo-project
+class caldav-github todo-project
+class caldav-jira todo-project
+
+classDef git-project fill:#9f9,stroke:#333,stroke-width:4px;
+class commit-proxy git-project
+
 class quickstats-django personal-project
 ```
