@@ -3,4 +3,4 @@
 	url = https://github.com/Xzya/hugo-bootstrap
 [submodule "themes/worklog"]
 	path = themes/worklog
-	url = git@github.com:kfdm/hugo-worklog.git
+	url = https://github.com/kfdm/hugo-worklog
