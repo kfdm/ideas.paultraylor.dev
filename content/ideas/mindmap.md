@@ -1,6 +1,15 @@
 ---
 title: Mindmap
 date: '2019-06-13'
+mermaid: true
+summary: Various connected ideas
+tags:
+  - caldav
+  - django
+  - ios
+  - markdown
+  - mqtt
+  - prometheus
 ---
 
 ```mermaid

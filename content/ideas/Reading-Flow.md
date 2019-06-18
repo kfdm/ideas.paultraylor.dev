@@ -3,6 +3,7 @@ title: Reading Flow
 date: '2019-06-18'
 mermaid: true
 toc: true
+summary: Thinking about how bookmarks and links flow and are organized
 ---
 
 ```mermaid
