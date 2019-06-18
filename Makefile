@@ -1,2 +1,2 @@
 server:
-	hugo server -D
+	hugo server --buildDrafts --buildFuture

@@ -1,6 +1,8 @@
 ---
 title: Server Subway Map
 date: 2019-05-21T05:13:05.000Z
+mermaid: true
+summary: Visualizing Server layout as a subway map
 tags:
   - hackathon
   - javascript
@@ -8,7 +10,7 @@ tags:
 
 # Example Mermaid
 
-```
+```mermaid
 graph LR
 subgraph Prometheus Server
     Thanos-Sidecar -.-> Prometheus

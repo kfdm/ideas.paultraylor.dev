@@ -1,29 +1,18 @@
 baseURL: https://ideas.paultraylor.net/
 languageCode: en-us
 title: Assorted Ideas
-theme: ananke
-
+theme:
+  - worklog
+  - bootstrap4
+SectionPagesMenu: main
+enableGitInfo: true
+rssLimit: 10
 params:
   description: "Assorted ideas and brainstorming"
   twitter: "https://twitter.com/kfdm"
   github: "https://github.com/kfdm"
   # recent_posts_number: 5
   show_reading_time: true
-
-menu:
-  main:
-    - name: ideas
-      pre: <i class='fa fa-heart'></i>
-      url: /ideas
-    - name: tags
-      pre: <i class='fa fa-heart'></i>
-      url: /tags/
-    - name: projects
-      pre: <i class='fa fa-heart'></i>
-      url: /projects/
-    - name: notes
-      pre: <i class='fa fa-heart'></i>
-      url: /notes/
 
 taxonomies:
   category: categories
