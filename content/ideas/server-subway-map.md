@@ -53,13 +53,16 @@ var grafana = chart.addNode('Grafana')
 var promgen = chart.addNode('Promgen', {'popover-id': 'promgen-popover'})
 var alertmanager = chart.addNode('AlertManager')
 
-chart.addConnection(prometheus, alertmanager, {'style':'dashed'})
+var line1 = chart.addConnection(prometheus, alertmanager, {'style':'dashed'})
 chart.addConnection(alertmanager, promgen, {'style':'dashed'})
 chart.addConnection(promgen, prometheus, {'color':'yellow'})
 
 chart.addGroup('Web Server', promgen, grafana);
 chart.addGroup('Data Server', prometheus);
 chart.addGroup('Misc Server', am, db, redis);
+
+grafana.addPopup('#grafana-info')
+line1.addPopup('#alertflow')
 ```
 
 # References

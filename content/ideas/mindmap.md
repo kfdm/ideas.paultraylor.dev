@@ -11,6 +11,7 @@ tags:
   - markdown
   - mqtt
   - prometheus
+  - map
 ---
 
 ```mermaid
@@ -27,6 +28,8 @@ prometheus>Prometheus]
 github>GitHub]
 jira>JIRA]
 fluentd>fluentd]
+line>LINE Notify]
+slack>Slack]
 
 quickstats-django[QuickStats API]
 
@@ -60,6 +63,8 @@ click github "https://developer.github.com/v3/"
 click jira "https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
 click prometheus "https://prometheus.io"
 click grafana "https://grafana.net"
+click line "https://notify-bot.line.me/"
+click slack "https://slack.dev/"
 
 classDef pomodoro-project fill:#f9f,stroke:#333,stroke-width:4px;
 class ios-pomodoro,django-pomodoro pomodoro-project
