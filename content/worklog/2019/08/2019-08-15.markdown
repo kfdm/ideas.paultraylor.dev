@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Worklog 2019-08-15.markdown
+title: Worklog 2019-08-15
 ---
 
 - Stubs for Edit Calendar

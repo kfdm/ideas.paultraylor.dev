@@ -5,4 +5,4 @@ title: Worklog 2019-05-12
 
 # Log
 
-- Rolled back Pomodoro to v0.1 tag which fixes some errors and mqtt 
+- Rolled back Pomodoro to v0.1 tag which fixes some errors and mqtt
