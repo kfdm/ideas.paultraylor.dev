@@ -1,0 +1,7 @@
+---
+layout: post
+title: Worklog 2019-08-15.markdown
+---
+
+- Stubs for Edit Calendar
+- Stubs for Select Default Calendar

@@ -1,0 +1,9 @@
+---
+title: "2019 10 19"
+date: 2019-10-19T13:48:18+09:00
+
+---
+
+# Worklog
+- Initial support for Alfred
+- Stubs for Bitbar support
