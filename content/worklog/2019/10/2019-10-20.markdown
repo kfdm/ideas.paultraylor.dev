@@ -1,6 +1,6 @@
 ---
 title: Worklog 2019-10-20
-date: '2019-10-19'
+date: '2019-10-20'
 ---
 
 # Quickstats
@@ -10,6 +10,7 @@ date: '2019-10-19'
 - added test cases to help with permissions error
 
 # Worklog
+
 - Added default worklog template to theme repo
 
 [drf-nested-routers]: https://github.com/alanjds/drf-nested-routers
