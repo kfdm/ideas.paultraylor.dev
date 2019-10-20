@@ -9,4 +9,7 @@ date: '2019-10-19'
 - Made minor fixes to ios-quickstats to fix changes to API
 - added test cases to help with permissions error
 
+# Worklog
+- Added default worklog template to theme repo
+
 [drf-nested-routers]: https://github.com/alanjds/drf-nested-routers
