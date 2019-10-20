@@ -12,3 +12,4 @@ date: '2019-10-19'
 # Other
 
 - pinboard stats
+- Testing out [starship](https://starship.rs)

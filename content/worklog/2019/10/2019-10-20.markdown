@@ -1,0 +1,12 @@
+---
+title: Worklog 2019-10-20
+date: '2019-10-19'
+---
+
+# Quickstats
+
+- switching to [drf-nested-routers] for better handling API integrations
+- Made minor fixes to ios-quickstats to fix changes to API
+- added test cases to help with permissions error
+
+[drf-nested-routers]: https://github.com/alanjds/drf-nested-routers
