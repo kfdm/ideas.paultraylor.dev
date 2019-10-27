@@ -1,0 +1,9 @@
+---
+title: Worklog 2019-10-26
+date: '2019-10-26'
+---
+
+# QuickStats
+
+- Combined Subscription and WidgetsList controllers
+- Seems like `post_save` is not being called for `Waypoint` which is preventing us from updating the timestamp properly

@@ -1,0 +1,17 @@
+---
+title: Worklog 2019-10-27
+date: '2019-10-27'
+---
+
+# Activitypub
+
+- Testing some code to see how easy it would be to add activitypub to my [django](https://github.com/kfdm/django-activitypub) application
+
+  - Added a simple webfinger implementation
+  - Added rest framework routes
+  - May end up doing without rest-framework under an `/activitypub` route since it may be easier that way
+
+# Quickstats
+
+- Fixed the Location updating due to the AppConfig not being auto loaded
+- Added a test subscription route, but need to think through the flow a bit better
