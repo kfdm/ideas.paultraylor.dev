@@ -1,0 +1,14 @@
+---
+title: Worklog 2019-10-29
+date: '2019-10-29'
+tags:
+  - activitypub
+---
+
+# Activitypub
+
+- Added some stubs for [inbox] and [outbox] for seeing what types of objects may come in.
+- Will handle proper validation later
+
+[inbox]: https://www.w3.org/TR/activitypub/#inbox
+[outbox]: https://www.w3.org/TR/activitypub/#outbox
