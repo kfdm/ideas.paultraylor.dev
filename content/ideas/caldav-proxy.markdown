@@ -5,9 +5,10 @@ status: prototype
 tags:
   - todo
   - caldav
+mermaid: true
 ---
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram
     participant Client
     participant Cache
@@ -28,7 +29,4 @@ sequenceDiagram
     Server->>Cache: Update cache
     Cache->>Client: Return to Client
     Deactivate Cache
-</div>
-
-<script src="https://unpkg.com/mermaid@8.0.0/dist/mermaid.min.js">
-<script>mermaid.initialize({startOnLoad:true});</script>
+```
