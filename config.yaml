@@ -1,6 +1,6 @@
 baseURL: https://ideas.paultraylor.dev
 languageCode: en-us
-title: Assorted Ideas
+title: Half Baked Ideas
 theme:
   - worklog
   - bootstrap4
