@@ -3,6 +3,7 @@ title: Grafana iCalendar Annotations
 date: 2019-10-30T02:48:11.000Z
 tags:
   - grafana
+  - typescript
 summary: >-
   iCalendar feed to Grafana annotation plugin similar to google calendar
   datasource
