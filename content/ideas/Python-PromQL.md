@@ -7,3 +7,7 @@ tags:
 ---
 
 How difficult it would be to re-use some of the yacc stuff for Prometheus' go parser, and make a proper parser for Python.
+
+# References
+
+- <https://github.com/go-python/gopy>
