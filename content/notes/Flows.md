@@ -1,8 +1,10 @@
 ---
-title: "Flows"
+title: Flows
 date: 2020-07-16T15:02:43+09:00
 mermaid: true
 toc: true
+type: Journal
+modified: 2021-02-24T14:38:19+09:00
 ---
 
 ```mermaid
