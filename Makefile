@@ -1,2 +1,2 @@
 server:
-	hugo server --buildDrafts --buildFuture
+	hugo server --buildDrafts --buildFuture --port 1515

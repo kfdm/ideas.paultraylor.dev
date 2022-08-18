@@ -1,0 +1,28 @@
+{{ if .Params.categories }}
+<div class="blog-post-categories text-secondary">
+    <strong>{{ i18n "categories" }}:</strong>
+    {{ range .Params.categories }}
+    <a class="badge badge-primary" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if .Params.status }}
+<div class="blog-post-categories text-secondary">
+    <strong>Status:</strong>
+    {{ if eq .Params.status "retired" }}
+    <span class="badge badge-danger">Retired</span>
+    {{else}}
+    <span class="badge badge-secondary">{{.Params.status}}</span>
+    {{end}}
+</div>
+{{end}}
+
+{{ if .Params.external }}
+<div class="blog-post-tags text-secondary">
+    <strong>Links:</strong>
+    {{ range $type, $link := .Params.external }}
+    <a class="badge badge-type-{{$type}}" href="{{ $link }}">{{$type|title}}</a>
+    {{ end }}
+</div>
+{{ end }}
