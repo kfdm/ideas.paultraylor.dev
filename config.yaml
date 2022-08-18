@@ -21,3 +21,7 @@ taxonomies:
 
 permalinks:
   worklog: /worklog/:year/:month/:day/
+
+markup:
+  highlight:
+    noClasses: false
