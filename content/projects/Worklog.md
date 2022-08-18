@@ -5,6 +5,8 @@ tags:
   - hugo
   - ios
 status: brainstorm
+external:
+  github: https://github.com/kfdm/alfred-worklog
 ---
 
 {{% statusbadge brainstorm red %}}

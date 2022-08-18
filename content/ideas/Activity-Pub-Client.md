@@ -1,6 +1,6 @@
 ---
 title: ActivityPub Client
-date: 2020-10-04T19:40:50+09:00
+date: 2020-10-04
 summary: General purpose activity pub client
 tags:
   - activitypub

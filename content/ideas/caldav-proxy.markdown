@@ -7,6 +7,14 @@ tags:
   - caldav
 ---
 
+Proxying different services, so they can be registered in a caldav compatible client
+
+<!--more-->
+
+Intial Prototype
+
+- <https://github.com/kfdm/caldavframework>
+
 ```mermaid
 sequenceDiagram
     participant Client

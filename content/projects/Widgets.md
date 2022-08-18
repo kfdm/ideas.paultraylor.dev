@@ -7,6 +7,8 @@ tags:
   - prometheus
   - grafana
 status: alpha
+external:
+  github: https://github.com/kfdm/django-simplestats
 ---
 
 {{% statusbadge alpha blue %}}

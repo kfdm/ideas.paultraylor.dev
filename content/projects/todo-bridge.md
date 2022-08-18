@@ -8,6 +8,8 @@ tags:
   - caldav
   - icalendar
 status: alpha
+external:
+  github: https://github.com/kfdm/todo-server
 ---
 
 {{% statusbadge alpha blue %}}

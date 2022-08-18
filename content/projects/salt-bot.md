@@ -7,10 +7,8 @@ tags:
   - line
   - saltstack
 status: alpha
+external:
+  github: https://github.com/kfdm/salt-bot
 ---
 
 {{% statusbadge alpha blue %}}
-
-# Github
-
-- <https://github.com/kfdm/salt-bot>
