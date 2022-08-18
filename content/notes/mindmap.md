@@ -1,7 +1,6 @@
 ---
 title: Mindmap
-date: '2019-06-13'
-mermaid: true
+date: "2019-06-13"
 summary: Various connected ideas
 toc: true
 tags:

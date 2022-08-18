@@ -1,7 +1,6 @@
 ---
 date: 2019-01-30T00:00:00.000Z
 title: Prometheus Proxy
-mermaid: true
 tags:
   - golang
   - prometheus

@@ -1,7 +1,6 @@
 ---
 title: Server Subway Map
 date: 2019-05-21T05:13:05.000Z
-mermaid: true
 summary: Visualizing Server layout as a subway map
 tags:
   - hackathon
@@ -47,22 +46,22 @@ Promgen---Redis((Redis))
 # Example Javascript
 
 ```javascript
-var chart = new SubwayDiagram('document-id')
-var prometheus = chart.addNode('Prometheus')
-var grafana = chart.addNode('Grafana')
-var promgen = chart.addNode('Promgen', {'popover-id': 'promgen-popover'})
-var alertmanager = chart.addNode('AlertManager')
+var chart = new SubwayDiagram("document-id");
+var prometheus = chart.addNode("Prometheus");
+var grafana = chart.addNode("Grafana");
+var promgen = chart.addNode("Promgen", { "popover-id": "promgen-popover" });
+var alertmanager = chart.addNode("AlertManager");
 
-var line1 = chart.addConnection(prometheus, alertmanager, {'style':'dashed'})
-chart.addConnection(alertmanager, promgen, {'style':'dashed'})
-chart.addConnection(promgen, prometheus, {'color':'yellow'})
+var line1 = chart.addConnection(prometheus, alertmanager, { style: "dashed" });
+chart.addConnection(alertmanager, promgen, { style: "dashed" });
+chart.addConnection(promgen, prometheus, { color: "yellow" });
 
-chart.addGroup('Web Server', promgen, grafana);
-chart.addGroup('Data Server', prometheus);
-chart.addGroup('Misc Server', am, db, redis);
+chart.addGroup("Web Server", promgen, grafana);
+chart.addGroup("Data Server", prometheus);
+chart.addGroup("Misc Server", am, db, redis);
 
-grafana.addPopup('#grafana-info')
-line1.addPopup('#alertflow')
+grafana.addPopup("#grafana-info");
+line1.addPopup("#alertflow");
 ```
 
 # References

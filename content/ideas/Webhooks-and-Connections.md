@@ -1,8 +1,7 @@
 ---
 title: Webhooks and Connections
-date: '2019-06-18'
+date: "2019-06-18"
 summary: Thinking through various interconnected systems
-mermaid: true
 ---
 
 ```mermaid

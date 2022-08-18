@@ -5,7 +5,6 @@ status: prototype
 tags:
   - todo
   - caldav
-mermaid: true
 ---
 
 ```mermaid
