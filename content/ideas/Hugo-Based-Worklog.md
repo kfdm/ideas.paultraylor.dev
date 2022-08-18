@@ -19,7 +19,7 @@ Build a worklog that works how my mind works. Have a few brainstorms for ideas
 # Hugo Based
 
 - Already supports generating webpage
-- archtypes for daily, weekly, monthly worklogs and summaries
+- archetypes for daily, weekly, monthly worklogs and summaries
 - Could be part of a larger information management system
 
 Inspiration
