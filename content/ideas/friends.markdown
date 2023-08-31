@@ -1,7 +1,7 @@
 ---
 date: 2018-12-12T00:00:00.000Z
 title: Friend Tracker
-status: brainstorm
+status: retired
 ---
 
 # Friend Tracker

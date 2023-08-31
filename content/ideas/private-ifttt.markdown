@@ -1,7 +1,7 @@
 ---
 date: 2018-12-18T00:00:00.000Z
 title: Private IFTTT
-status: brainstorm
+status: retired
 references:
   - 'https://github.com/push-things/django-th'
   - 'https://ifttt.com'
