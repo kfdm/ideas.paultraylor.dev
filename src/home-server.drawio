@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-08-31T03:13:24.914Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="O3s6uXLtkfYA5nefGpaT" version="21.6.8" type="device">
+  <diagram name="ページ1" id="aswFXnIDJD4aNS9DcvOn">
+    <mxGraphModel dx="794" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="System" link="https://example.com" id="CiNuoxfTv6dP-ewFckys-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+            <mxGeometry x="80" y="120" width="450" height="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-2" value="Docker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="250" y="130" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-3" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="260" y="320" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-4" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="310" y="320" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-7" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-8" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="260" y="190" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-9" value="App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="260" y="220" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-10" value="Nginx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="90" y="270" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-11" value="fluent-bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="90" y="300" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-12" value="node-exporter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="90" y="330" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-13" value="tailscale" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="90" y="360" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CiNuoxfTv6dP-ewFckys-14" value="Controller" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="90" y="390" width="150" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="Controller" link="#controller" id="CiNuoxfTv6dP-ewFckys-16">
+          <mxCell style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+            <mxGeometry x="260" y="390" width="250" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="auth" link="#auth" id="8nsToPT2vSf4DR5weAHF-1">
+          <mxCell style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="360" y="320" width="40" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

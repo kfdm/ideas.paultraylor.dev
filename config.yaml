@@ -23,5 +23,8 @@ permalinks:
   worklog: /worklog/:year/:month/:day/
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
