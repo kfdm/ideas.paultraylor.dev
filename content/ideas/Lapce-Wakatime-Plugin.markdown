@@ -1,6 +1,8 @@
 ---
 title: "Lapce Wakatime Plugin"
 date: 2023-05-01
+tags:
+- rust
 ---
 
 - https://docs.lapce.dev/development/architecture
