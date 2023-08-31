@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-    width="451px" height="311px" viewBox="-0.5 -0.5 451 311">
+    width="451px" height="311px" viewBox="-0.5 -0.5 451 311"
+    content="&lt;mxfile&gt;&lt;diagram name=&quot;ページ1&quot; id=&quot;aswFXnIDJD4aNS9DcvOn&quot;&gt;5ZhRd5owFMc/jY/uCBHER2tr+7C1PbM7ew7hApmRcEKsuE+/IEHQxLXbUdtuL574z43k/v4h3qSHpsvyVuA8/cIjYD13EJU9dN1z3cAfqM9K2NSC56FaSASNaslphTn9CVrU45IVjaDYC5ScM0nzfZHwLAMi9zQsBF/vh8Wc7T81xwkYwpxgZqrfaSRTnZY7avU7oEnaPNnxx3XPEjfBOpMixRFfdyR000NTwbmsW8tyCqxi13Cpx82O9O4mJiCTlgHfChAP4Y+KiTtgOFS2bIPmm0LCsh7MaLao1VTKCuikGu7OoMTLnMEnwnVg89ApvV/xMn569qPHPqxnZLEp+s4umd0kC7lpAAq+yiKoxg966GqdUgnzHJOqd61WjNJSuazm5qgmZjTJVJtBrHK6egYhqfJiomXJq3gzcc2iCoeyI+lJ3QJfghQbFdIsS+2JXpRO49G6tXjoaS3t2IuaZYn1skp2P92SVw0Novna8cJuppWrq7PCbKVZXnOyAKGX018ijiljU8642I5FEYYgJkovpOAL6PT4JIAwPqcLrndgAzJtcEcWG9zxn9vwOubIYC4gooWBXL3MedUkG/UORSDQy+DD2qXP4U7AZJFsvXtYSfUzoPWi3gQdz3QrDggQq1th4FUr9jS++Pu+INvrYbHFP5crQ8OVKPy/LNltPO/FkpFhySTPT7ozgRN5MLKBHfsjhP3zrHXHt+xBtr8C91xkg3+V7PityY7/UbKuZTO4LNlmd+qgvU9oVp62VPEgiIY2uIEbIv9EcMcHbEcmW+eybB2DbaxameyHVH58wGjw5oDNQjtTx9g+lDlXSZ243n4TxpbC+sKMzcJaYsqK7UH74/O1FA0X5muWyFOeKQSMWRZwUyrnghMoilcUykfq4sNaOI5dey0c+aHvnQm+pa44FfxjlyiHbNuLFJUrOej8vXF+J1fz9uRjO2UcJM9YAlquWY65h1fq4aZvrUwYLorD2MbGICue+OOT+zyPh9dfvTVM7mYv3IG936NpNWKuJ6pS5Sc6rV7uAsFiu5LaW9VteOdqGt38Ag==&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs />
     <g>
         <a xlink:href="https://example.com">
@@ -291,7 +290,7 @@
                 </switch>
             </g>
         </a>
-        <a xlink:href="/#auth">
+        <a xlink:href="#auth">
             <path
                 d="M 280 215 C 280 206.72 288.95 200 300 200 C 305.3 200 310.39 201.58 314.14 204.39 C 317.89 207.21 320 211.02 320 215 L 320 245 C 320 253.28 311.05 260 300 260 C 288.95 260 280 253.28 280 245 Z"
                 fill="#f8cecc" stroke="#b85450" stroke-miterlimit="10" pointer-events="all" />
@@ -321,7 +320,7 @@
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" />
         <a transform="translate(0,-5)"
-            xlink:href="https://www.drawio.com/doc/faq/svg-export-text-problems" target="_blank">
+            xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
             <text text-anchor="middle" font-size="10px" x="50%" y="100%">Text is not SVG - cannot
                 display</text>
         </a>
