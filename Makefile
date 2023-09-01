@@ -23,6 +23,6 @@ clean:
 	rm static/css/syntax.css
 	rm -rf public
 
-.PHONY: process
-process: $(PYTHON_BIN)
+.PHONY: sort
+sort: $(PYTHON_BIN)
 	$(PYTHON_BIN) scripts/sort.py
