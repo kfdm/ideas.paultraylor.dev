@@ -1,6 +1,8 @@
 ---
-date: 2018-12-18T00:00:00.000Z
+date: 2018-12-18
 title: Jekyll Tools for VS Code
+aliases:
+  - /ideas/jekyll-tools-for-vs-code
 status: retired
 tags:
   - jekyll

@@ -1,6 +1,8 @@
 ---
-date: 2018-12-18T00:00:00.000Z
+date: 2018-12-18
 title: Pocket to Jekyll
+aliases:
+  - /ideas/pocket-to-jekyll
 status: retired
 tags:
   - jekyll

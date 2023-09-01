@@ -1,6 +1,8 @@
 ---
-date: 2018-12-12T00:00:00.000Z
+date: 2018-12-12
 title: Friend Tracker
+aliases:
+  - /ideas/friends
 status: retired
 ---
 

@@ -2,10 +2,12 @@
 date: 2018-12-18T00:00:00.000Z
 title: Private IFTTT
 status: retired
+aliases:
+  - /ideas/private-ifttt
 references:
-  - 'https://github.com/push-things/django-th'
-  - 'https://ifttt.com'
-  - 'https://nodered.org/'
+  - https://github.com/push-things/django-th
+  - https://ifttt.com
+  - https://nodered.org/
 tags:
   - ifttt
   - mqtt
