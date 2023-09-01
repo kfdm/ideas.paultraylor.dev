@@ -1,6 +1,7 @@
 ---
 title: Pop Launcher for MacOS
 date: 2023-08-15T00:34:58.000Z
+status: missing
 tags:
   - rust
   - swift

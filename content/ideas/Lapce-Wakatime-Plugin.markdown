@@ -1,6 +1,7 @@
 ---
 title: "Lapce Wakatime Plugin"
 date: 2023-05-01
+status: brainstorm
 tags:
 - rust
 ---

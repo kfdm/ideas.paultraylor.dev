@@ -1,6 +1,7 @@
 ---
 title: Home Server
-date: 2023-08-31T03:08:36.000Z
+date: 2023-08-31
+status: prototype
 tags:
   - docker
 ---

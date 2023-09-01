@@ -1,6 +1,7 @@
 ---
 date: 2019-02-05T00:00:00.000Z
 title: I would like to share to Jekyll
+status: missing
 tags:
   - ios
   - jekyll

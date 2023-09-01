@@ -1,6 +1,7 @@
 ---
 title: Status Bar RSS Reader
 date: "2019-10-29"
+status: missing
 tags:
   - macos
   - swift

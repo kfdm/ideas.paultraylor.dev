@@ -1,8 +1,11 @@
 ---
-title: Reading Flow
+aliases:
+  - /ideas/Reading-Flow
 date: "2019-06-18"
-toc: true
+status: retired
 summary: Thinking about how bookmarks and links flow and are organized
+title: Reading Flow
+toc: true
 ---
 
 ```mermaid

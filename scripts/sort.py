@@ -16,6 +16,7 @@ for src in ideas.glob("**/*.markdown"):
     post = frontmatter.load(src)
     if "status" not in post:
         post["status"] = "missing"
+        update = True
 
     if post["status"] == "retired":
         post.metadata.setdefault("aliases", []).append(f"/ideas/{src.stem}")

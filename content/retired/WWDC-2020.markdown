@@ -1,9 +1,12 @@
 ---
-title: "WWDC 2020 Wishlist"
-date: 2020-06-19T10:02:42+09:00
+aliases:
+  - /ideas/WWDC-2020
+date: 2020-06-19
+status: retired
 tags:
   - swift
   - swiftui
+title: WWDC 2020 Wishlist
 ---
 
 - Some kind of collection view

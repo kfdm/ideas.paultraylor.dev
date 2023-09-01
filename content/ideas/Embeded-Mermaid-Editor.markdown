@@ -1,6 +1,7 @@
 ---
 title: "Embeded Mermaid Editor"
 date: 2022-08-20
+status: missing
 tags:
   - mermaid
   - markdown

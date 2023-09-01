@@ -1,6 +1,7 @@
 ---
 title: ActivityPub Client
 date: 2020-10-04
+status: missing
 summary: General purpose activity pub client
 tags:
   - activitypub

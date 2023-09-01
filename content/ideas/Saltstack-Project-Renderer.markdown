@@ -1,6 +1,7 @@
 ---
 title: Saltstack Project Renderer
 date: 2019-05-19T21:17:42.551725+09:00
+status: brainstorm
 tags:
   - saltstack
 ---

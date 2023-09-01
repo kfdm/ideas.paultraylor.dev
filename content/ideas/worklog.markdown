@@ -1,13 +1,16 @@
 ---
-date: 2018-12-19T00:00:00.000Z
+date: 2018-12-19
 title: Worklog
-repo: 'https://github.com/kfdm/alfred-worklog'
 status: alpha
 excerpt: Using Jekyll as a worklog
 tags:
   - todo
   - markdown
   - jekyll
+  - hugo
+  - alfred
+external:
+  repo: "https://github.com/kfdm/alfred-worklog"
 ---
 
 Jekyll is a fairly powerful platform for blogging, and I think a few scripts built around it could also be useful for maintaining a worklog
