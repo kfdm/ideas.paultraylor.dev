@@ -16,7 +16,7 @@
     <span class="badge badge-danger">Retired</span>
     {{else}}
     <a
-       class="badge badge-secondary"
+       class="badge badge-status-{{ .Params.status }}"
        href="{{ "/status/" | relLangURL }}{{ .Params.status | urlize }}">{{ .Params.status }}</a>
     {{end}}
 </div>

@@ -10,7 +10,7 @@ tags:
   - hugo
   - alfred
 external:
-  repo: "https://github.com/kfdm/alfred-worklog"
+  github: https://github.com/kfdm/alfred-worklog
 ---
 
 Jekyll is a fairly powerful platform for blogging, and I think a few scripts built around it could also be useful for maintaining a worklog
