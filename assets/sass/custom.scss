@@ -16,15 +16,17 @@ $color-yiq-light-amount: 60% !default;
     $g: green($color);
     $b: blue($color);
 
-    $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+    $yiq: (
+        ($r * 299) + ($g * 587) + ($b * 114)) / 1000;
 
     @if ($yiq >=150) {
-        @return darken($color, $dark-amount);
-    }
+        @return darken($color, $dark-amount
+    );
+}
 
-    @else {
-        @return lighten($color, $light-amount);
-    }
+@else {
+    @return lighten($color, $light-amount);
+}
 }
 
 @mixin badge-variant($bg) {
@@ -66,4 +68,36 @@ $color-yiq-light-amount: 60% !default;
 
 .badge-status-missing {
     @include badge-variant(#aaa);
+}
+
+// Custom colors for specific languages
+
+a[href="/tags/golang"],
+a[href="/tags/javascript"],
+a[href="/tags/markdown"],
+a[href="/tags/python"],
+a[href="/tags/rust"],
+a[href="/tags/swift"],
+a[href="/tags/typescript"],
+{
+@include badge-variant(#a00);
+}
+
+// Custom colors for specific frameworks
+a[href="/tags/activitypub"],
+a[href="/tags/caldav"],
+a[href="/tags/django"],
+a[href="/tags/docker"],
+a[href="/tags/mqtt"],
+{
+@include badge-variant(#0a0);
+}
+
+// Custom colors for specific apps
+a[href="/tags/alfred"],
+a[href="/tags/hugo"],
+a[href="/tags/jekyll"],
+a[href="/tags/sentry"],
+{
+@include badge-variant(#00a);
 }

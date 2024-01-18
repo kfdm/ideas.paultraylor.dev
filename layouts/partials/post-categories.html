@@ -4,23 +4,19 @@
     {{ range .Params.categories }}
     <a
        class="badge badge-primary"
-       href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+       href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
     {{ end }}
 </div>
 {{ end }}
 
-{{ if .Params.status }}
+{{ if ne .Section "notes" "worklog" }}
 <div class="blog-post-categories text-secondary">
     <strong>Status:</strong>
-    {{ if eq .Params.status "retired" }}
-    <span class="badge badge-danger">Retired</span>
-    {{else}}
     <a
-       class="badge badge-status-{{ .Params.status }}"
-       href="{{ "/status/" | relLangURL }}{{ .Params.status | urlize }}">{{ .Params.status }}</a>
-    {{end}}
+       class="badge badge-status-{{ .Section }}"
+       href="/{{ .Section | urlize }}">{{ .Section }}</a>
 </div>
-{{end}}
+{{ end }}
 
 {{ if .Params.external }}
 <div class="blog-post-tags text-secondary">
