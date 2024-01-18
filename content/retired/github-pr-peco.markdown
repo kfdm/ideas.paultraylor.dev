@@ -1,9 +1,11 @@
 ---
-title: Github Pr Peco
-date: "2022-09-18"
-status: missing
+aliases:
+- /ideas/github-pr-peco
+date: '2022-09-18'
+status: retired
 tags:
-  - github
+- github
+title: Github Pr Peco
 ---
 
 Combining `gh pr list` with [peco] should make it easy to see a list of open PRs and then select one to open in the browser.
