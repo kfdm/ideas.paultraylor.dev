@@ -3,7 +3,7 @@ title: Project Dependencies
 date: "2019-06-10"
 summary: Thinking through my personal projects' dependencies
 tags:
-  - map
+  - mermaid
 ---
 
 ```mermaid

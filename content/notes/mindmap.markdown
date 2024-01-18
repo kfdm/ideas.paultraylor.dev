@@ -10,7 +10,7 @@ tags:
   - markdown
   - mqtt
   - prometheus
-  - map
+  - mermaid
 ---
 
 ```mermaid
